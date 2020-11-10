@@ -25,32 +25,74 @@
 
 /* HEADER */
 header{
-	height: 300px;
-  border: 1px solid black;
+	height: 550px;
   background: lightgrey;
   background-image:url("img/image-header.png");
   background-position: center;
+  background-size:cover;
+  position: relative;
+  padding: 30px 30px;
 }
+
+.logo-head img{
+  position: relative;
+  transform: translate(-50% , -50%);
+  top: 50%;
+  left: 50%;
+  padding-bottom: 50px;
+}
+
+.logo-head h2{
+  position:absolute;
+  transform: translate(-50% , -50%);
+  bottom: 20%;
+  left: 50%;
+  font-size: 35px;
+  color: #e6e6e6;
+
+
+}
+
 /* /HEADER */
 
 
 /* BARRA NAVIGAZIONE */
 
 .barra-navigazione{
-  height: 60px;
+  position: relative;
+  height: 70px;
     width: 100%;
   margin-bottom: 15px;
-  border: 1px solid black;
+  background: #404040;
 }
 
+.content-barra{
+  position: relative;
+  height: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content-barra ul li{
+  display: inline-block;
+  padding: 30px 40px;
+  font-size: 20px;
+  position: relative;
+  color: #e6e6e6;
+
+
+
+
+}
 /* FINE BARRA NAVIGAZIONE */
 
 
 .container{
   background-image:url(img/image-back.png);
 	width: 100vw;
-  max-width: 1200px;
+  max-width: 1500px;
 	margin: 0 auto;
+
 
 
 }
@@ -66,21 +108,42 @@ header{
 	width: 25%;
 	height: 500px;
   border: 1px solid black;
-
 }
+/* CONTENUTO BOX-1 */
+
+
+
+/* END CONTENUTO BOX-1 */
+
+
+
 .box-2{
 	width:calc(50% - 50px);
 	height: 400px;
   border: 1px solid black;
-
-	margin: 0 25px;
+  margin: 0 25px;
 }
+
+/* CONTENUTO BOX-2 */
+
+
+/* END CONTENUTO-BOX-2 */
+
+
+
 .box-3{
 	width: 25%;
 	background-color: ;
   border: 1px solid black;
-
 }
+
+
+/* CONTENUTO BOX-3 */
+
+
+/* END CONTENUTO BOX-3 */
+
+
 
 /* BOX DI DESTRA */
 .right-box{
